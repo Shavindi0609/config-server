@@ -4,7 +4,7 @@ server:
 spring:
   data:
     mongodb:
-      uri: mongodb://localhost:27017/user_db
+      uri:mongodb://root:3k9VsZxOSx1w6BSUaKihOJkf_nMQdI0T2062BWS2XnRoEpN0@d23ba959-1039-4787-a611-5c7436649cb2.asia-southeast1.firestore.goog:443/user-db?loadBalanced=true&tls=true&authMechanism=SCRAM-SHA-256&retryWrites=false
 
 eureka:
   client:
