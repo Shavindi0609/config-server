@@ -4,12 +4,15 @@ server:
 spring:
   application:
     name: config-server
+
   cloud:
     config:
       server:
         git:
           uri: https://github.com/Shavindi0609/Library-Management-Configurations.git
-          search-paths: platform,services
+          search-paths:
+            - platform
+            - services
 
 eureka:
   client:
